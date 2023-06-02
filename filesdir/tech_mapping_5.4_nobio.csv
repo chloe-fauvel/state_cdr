@@ -1,0 +1,40 @@
+﻿sector,tech_map
+airCO2,DACCS
+backup_electricity,Electricity
+base load generation,Electricity
+biomass liquids,Bioliquids
+cement,Industry
+coal to liquids,Refining
+comm cooking,Buildings
+comm cooling,Buildings
+comm heating,Buildings
+comm hot water,Buildings
+comm other,Buildings
+csp_backup,Buildings
+gas pipeline,Industry
+gas processing,Industry
+gas to liquids,Refining
+H2 central production,Industry
+H2 forecourt production,Industry
+industrial energy use,Industry
+industrial feedstocks,Industry
+intermediate generation,Electricity
+N fertilizer,Industry
+oil refining,Refining
+peak generation,Electricity
+process heat cement,Industry
+process heat dac,DACCS
+resid clothes dryers,Buildings
+resid cooking,Buildings
+resid heating,Buildings
+resid hot water,Buildings
+resid other,Buildings
+subpeak generation,Electricity
+trn_aviation_intl,Transportation
+trn_freight,Transportation
+trn_freight_road,Transportation
+trn_pass,Transportation
+trn_pass_road,Transportation
+trn_pass_road_LDV,Transportation
+trn_pass_road_LDV_4W,Transportation
+trn_shipping_intl,Transportation

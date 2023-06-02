@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BatchRunner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="batch_runner.xsd">
+
+
+	<ComponentSet name="va_">
+    
+    <FileSet name="NEWdac_netzero_usa_global_ssp2_highEV">
+	     	<Value name = "transportation">../input/gcamdata/xml/transportation_UCD_CORE.xml</Value>
+			<Value name = "trn">../input/gcamdata/xml/transportation_UCD_highEV.xml</Value>
+        	<Value name = "dac_base">../input/gcamdata/xml/dac_ssp2.xml</Value>
+        
+			<Value name = "trn_usa">../input/gcamdata/xml/transportation_USA_CORE.xml</Value>
+			<Value name = "trn_USA">../input/gcamdata/xml/transportation_USA_highEV.xml</Value> 
+        	<Value name = "Cstorage_usa">../input/gcamdata/xml/Cstorage_USA.xml</Value>
+			<Value name = "dac_usa">../input/gcamdata/xml/dac_USA_ssp2.xml</Value>
+			<Value name = "dac_usa_ccoef">../input/gcam_addons/dac/Ccoef-dac-state-airCO2.xml</Value>
+				
+        	<Value name = "ccap">../input/gcam_addons/policy/va_netzero/net_zero_usa_global.xml</Value>
+			<Value name = "luc">../input/gcam_addons/policy/va_netzero/luc_usa_global_2100.xml</Value>
+	  </FileSet>
+    
+     
+    <FileSet name="NEWdac_netzero_usa_global_ssp2_highEV_lowCCS">
+ 			<Value name = "transportation">../input/gcamdata/xml/transportation_UCD_CORE.xml</Value>
+			<Value name = "trn">../input/gcamdata/xml/transportation_UCD_highEV.xml</Value>
+			<Value name = "dac_base">../input/gcamdata/xml/dac_ssp2.xml</Value>
+	        <Value name = "ccs">../input/gcamdata/xml/ccs_supply_lowest.xml</Value>
+       
+			<Value name = "trn_usa">../input/gcamdata/xml/transportation_USA_CORE.xml</Value>
+			<Value name = "trn_USA">../input/gcamdata/xml/transportation_USA_highEV.xml</Value> 
+        	<Value name = "Cstorage_usa">../input/gcamdata/xml/Cstorage_USA_lowest.xml</Value>
+			<Value name = "dac_usa">../input/gcamdata/xml/dac_USA_ssp2.xml</Value>
+			<Value name = "dac_usa_ccoef">../input/gcam_addons/dac/Ccoef-dac-state-airCO2.xml</Value>
+        
+        	<Value name = "10xoffshore_ccs">../input/gcamdata/xml/Cstorage_10xoffshore_cost.xml</Value>
+        	<Value name = "ccap">../input/gcam_addons/policy/va_netzero/net_zero_usa_global.xml</Value>
+			<Value name = "luc">../input/gcam_addons/policy/va_netzero/luc_usa_global_2100.xml</Value>
+	  </FileSet>
+     
+    <FileSet name="NEWdac_netzero_usa_global_ssp2_highEV_luc2050">
+	    	<Value name = "transportation">../input/gcamdata/xml/transportation_UCD_CORE.xml</Value>
+			<Value name = "trn">../input/gcamdata/xml/transportation_UCD_highEV.xml</Value>
+        	<Value name = "dac_base">../input/gcamdata/xml/dac_ssp2.xml</Value>
+        
+			<Value name = "trn_usa">../input/gcamdata/xml/transportation_USA_CORE.xml</Value>
+			<Value name = "trn_USA">../input/gcamdata/xml/transportation_USA_highEV.xml</Value> 
+        	<Value name = "Cstorage_usa">../input/gcamdata/xml/Cstorage_USA.xml</Value>
+			<Value name = "dac_usa">../input/gcamdata/xml/dac_USA_ssp2.xml</Value>
+			<Value name = "dac_usa_ccoef">../input/gcam_addons/dac/Ccoef-dac-state-airCO2.xml</Value>
+				
+        	<Value name = "ccap">../input/gcam_addons/policy/va_netzero/net_zero_usa_global.xml</Value>
+			<Value name = "luc">../input/gcam_addons/policy/va_netzero/luc_usa_global_2050.xml</Value>
+	  </FileSet>
+     
+    <FileSet name="NEWdac_netzero_usa_global_ssp2_highEV_lowCCS_luc2050">
+ 			<Value name = "transportation">../input/gcamdata/xml/transportation_UCD_CORE.xml</Value>
+			<Value name = "trn">../input/gcamdata/xml/transportation_UCD_highEV.xml</Value>
+			<Value name = "dac_base">../input/gcamdata/xml/dac_ssp2.xml</Value>
+	      	<Value name = "ccs">../input/gcamdata/xml/ccs_supply_lowest.xml</Value>
+       
+			<Value name = "trn_usa">../input/gcamdata/xml/transportation_USA_CORE.xml</Value>
+			<Value name = "trn_USA">../input/gcamdata/xml/transportation_USA_highEV.xml</Value> 
+        	<Value name = "Cstorage_usa">../input/gcamdata/xml/Cstorage_USA_lowest.xml</Value>
+			<Value name = "dac_usa">../input/gcamdata/xml/dac_USA_ssp2.xml</Value>
+			<Value name = "dac_usa_ccoef">../input/gcam_addons/dac/Ccoef-dac-state-airCO2.xml</Value>
+        
+        	<Value name = "10xoffshore_ccs">../input/gcamdata/xml/Cstorage_10xoffshore_cost.xml</Value>
+        	<Value name = "ccap">../input/gcam_addons/policy/va_netzero/net_zero_usa_global.xml</Value>
+			<Value name = "luc">../input/gcam_addons/policy/va_netzero/luc_usa_global_2050.xml</Value>
+	  </FileSet>
+   
+	</ComponentSet>	
+	
+</BatchRunner>

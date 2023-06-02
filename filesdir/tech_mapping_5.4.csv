@@ -1,0 +1,517 @@
+#tech mapping,,,,
+sector,nestingsubsector,subsector,technology,tech_map
+airCO2,airCO2,N/A,airCO2,DACCS
+CO2 removal,dac,N/A,hightemp DAC NG,DACCS
+CO2 removal,dac,N/A,hightemp DAC elec,DACCS
+CO2 removal,dac,N/A,lowtemp DAC heatpump,DACCS
+H2 central production,biomass,N/A,biomass to H2,Industry
+H2 central production,biomass,N/A,biomass to H2 CCS,Industry
+H2 central production,coal,N/A,coal chemical,Industry
+H2 central production,coal,N/A,coal chemical CCS,Industry
+H2 central production,gas,N/A,natural gas steam reforming,Industry
+H2 central production,gas,N/A,natural gas steam reforming CCS,Industry
+H2 forecourt production,gas,N/A,natural gas steam reforming,Industry
+N fertilizer,coal,N/A,coal,Industry
+N fertilizer,coal,N/A,coal CCS,Industry
+N fertilizer,gas,N/A,gas,Industry
+N fertilizer,gas,N/A,gas CCS,Industry
+N fertilizer,refined liquids,N/A,refined liquids,Industry
+backup_electricity,gas,N/A,gas (steam/CT),Electricity
+base load generation,biomass,"biomass_base_IGCC,depth=1",biomass (IGCC) (dry cooling),Bioelectricity
+base load generation,biomass,"biomass_base_IGCC,depth=1",biomass (IGCC) (recirculating),Bioelectricity
+base load generation,biomass,"biomass_base_IGCC,depth=1",biomass (IGCC) (seawater),Bioelectricity
+base load generation,biomass,"biomass_base_IGCC_CCS,depth=1",biomass (IGCC CCS) (dry cooling),BECCS electricity
+base load generation,biomass,"biomass_base_IGCC_CCS,depth=1",biomass (IGCC CCS) (recirculating),BECCS electricity
+base load generation,biomass,"biomass_base_IGCC_CCS,depth=1",biomass (IGCC CCS) (seawater),BECCS electricity
+base load generation,biomass,"biomass_base_conv,depth=1",biomass (conv) (cooling pond),Bioelectricity
+base load generation,biomass,"biomass_base_conv,depth=1",biomass (conv) (dry cooling),Bioelectricity
+base load generation,biomass,"biomass_base_conv,depth=1",biomass (conv) (once through),Bioelectricity
+base load generation,biomass,"biomass_base_conv,depth=1",biomass (conv) (recirculating),Bioelectricity
+base load generation,biomass,"biomass_base_conv,depth=1",biomass (conv) (seawater),Bioelectricity
+base load generation,biomass,"biomass_base_conv_CCS,depth=1",biomass (conv CCS) (dry cooling),BECCS electricity
+base load generation,biomass,"biomass_base_conv_CCS,depth=1",biomass (conv CCS) (recirculating),BECCS electricity
+base load generation,biomass,"biomass_base_conv_CCS,depth=1",biomass (conv CCS) (seawater),BECCS electricity
+base load generation,coal,"coal_base_IGCC_CCS,depth=1",coal (IGCC CCS) (dry cooling),Electricity
+base load generation,coal,"coal_base_IGCC_CCS,depth=1",coal (IGCC CCS) (recirculating),Electricity
+base load generation,coal,"coal_base_IGCC_CCS,depth=1",coal (IGCC CCS) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul before 1950,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul before 1950,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul before 1950,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul before 1950,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul before 1950,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1951-1955,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1951-1955,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1951-1955,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1951-1955,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1951-1955,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1956-1960,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1956-1960,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1956-1960,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1956-1960,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1956-1960,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1961-1965,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1961-1965,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1961-1965,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1961-1965,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1961-1965,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1966-1970,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1966-1970,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1966-1970,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1966-1970,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1966-1970,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1971-1975,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1971-1975,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1971-1975,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1971-1975,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1971-1975,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1976-1980,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1976-1980,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1976-1980,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1976-1980,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1976-1980,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1981-1985,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1981-1985,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1981-1985,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1981-1985,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1981-1985,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1986-1990,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1986-1990,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1986-1990,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1986-1990,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1986-1990,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1991-1995,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1991-1995,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1991-1995,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1991-1995,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1991-1995,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 1996-2000,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 1996-2000,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 1996-2000,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 1996-2000,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 1996-2000,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 2001-2005,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 2001-2005,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 2001-2005,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 2001-2005,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 2001-2005,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 2006-2010,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 2006-2010,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 2006-2010,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 2006-2010,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 2006-2010,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul 2011-2015,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul 2011-2015,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul 2011-2015,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul 2011-2015,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul 2011-2015,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul_CCS,depth=1",coal (conv pul CCS) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul_CCS,depth=1",coal (conv pul CCS) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul_CCS,depth=1",coal (conv pul CCS) (seawater),Electricity
+base load generation,coal,"coal_base_conv pul_retire_2020,depth=1",coal (conv pul) (cooling pond),Electricity
+base load generation,coal,"coal_base_conv pul_retire_2020,depth=1",coal (conv pul) (dry cooling),Electricity
+base load generation,coal,"coal_base_conv pul_retire_2020,depth=1",coal (conv pul) (once through),Electricity
+base load generation,coal,"coal_base_conv pul_retire_2020,depth=1",coal (conv pul) (recirculating),Electricity
+base load generation,coal,"coal_base_conv pul_retire_2020,depth=1",coal (conv pul) (seawater),Electricity
+base load generation,gas,"gas_base_CC,depth=1",gas (CC) (cooling pond),Electricity
+base load generation,gas,"gas_base_CC,depth=1",gas (CC) (dry cooling),Electricity
+base load generation,gas,"gas_base_CC,depth=1",gas (CC) (once through),Electricity
+base load generation,gas,"gas_base_CC,depth=1",gas (CC) (recirculating),Electricity
+base load generation,gas,"gas_base_CC,depth=1",gas (CC) (seawater),Electricity
+base load generation,gas,"gas_base_CC_CCS,depth=1",gas (CC CCS) (dry cooling),Electricity
+base load generation,gas,"gas_base_CC_CCS,depth=1",gas (CC CCS) (recirculating),Electricity
+base load generation,gas,"gas_base_CC_CCS,depth=1",gas (CC CCS) (seawater),Electricity
+base load generation,refined liquids,"refined liquids_base_CC,depth=1",refined liquids (CC) (dry cooling),Electricity
+base load generation,refined liquids,"refined liquids_base_CC,depth=1",refined liquids (CC) (recirculating),Electricity
+base load generation,refined liquids,"refined liquids_base_CC,depth=1",refined liquids (CC) (seawater),Electricity
+base load generation,refined liquids,"refined liquids_base_CC_CCS,depth=1",refined liquids (CC CCS) (dry cooling),Electricity
+base load generation,refined liquids,"refined liquids_base_CC_CCS,depth=1",refined liquids (CC CCS) (recirculating),Electricity
+base load generation,refined liquids,"refined liquids_base_CC_CCS,depth=1",refined liquids (CC CCS) (seawater),Electricity
+base load generation,refined liquids,"refined liquids_base_steam/CT,depth=1",refined liquids (steam/CT) (cooling pond),Electricity
+base load generation,refined liquids,"refined liquids_base_steam/CT,depth=1",refined liquids (steam/CT) (dry cooling),Electricity
+base load generation,refined liquids,"refined liquids_base_steam/CT,depth=1",refined liquids (steam/CT) (once through),Electricity
+base load generation,refined liquids,"refined liquids_base_steam/CT,depth=1",refined liquids (steam/CT) (recirculating),Electricity
+base load generation,refined liquids,"refined liquids_base_steam/CT,depth=1",refined liquids (steam/CT) (seawater),Electricity
+biomass liquids,biomass liquids,N/A,FT biofuels,Bioliquids
+biomass liquids,biomass liquids,N/A,FT biofuels CCS level 1,BECCS liquids
+biomass liquids,biomass liquids,N/A,FT biofuels CCS level 2,BECCS liquids
+biomass liquids,biomass liquids,N/A,biodiesel,Bioliquids
+biomass liquids,biomass liquids,N/A,cellulosic ethanol,Bioliquids
+biomass liquids,biomass liquids,N/A,cellulosic ethanol CCS level 1,BECCS liquids
+biomass liquids,biomass liquids,N/A,cellulosic ethanol CCS level 2,BECCS liquids
+biomass liquids,biomass liquids,N/A,corn ethanol,Bioliquids
+cement,cement,N/A,cement,Industry
+cement,cement,N/A,cement CCS,Industry
+coal to liquids,coal to liquids,N/A,coal to liquids CCS level 1,Refining
+coal to liquids,coal to liquids,N/A,coal to liquids CCS level 2,Refining
+comm cooking,gas,N/A,gas range,Buildings
+comm cooking,gas,N/A,gas range hi-eff,Buildings
+comm cooling,gas,N/A,gas,Buildings
+comm cooling,gas,N/A,gas cooling,Buildings
+comm heating,biomass,N/A,biomass,Buildings
+comm heating,biomass,N/A,wood furnace,Buildings
+comm heating,coal,N/A,coal,Buildings
+comm heating,coal,N/A,coal furnace,Buildings
+comm heating,gas,N/A,gas,Buildings
+comm heating,gas,N/A,gas furnace,Buildings
+comm heating,gas,N/A,gas furnace hi-eff,Buildings
+comm heating,refined liquids,N/A,fuel furnace,Buildings
+comm heating,refined liquids,N/A,refined liquids,Buildings
+comm hot water,gas,N/A,gas water heater,Buildings
+comm hot water,gas,N/A,gas water heater hi-eff,Buildings
+comm hot water,refined liquids,N/A,fuel water heater,Buildings
+comm other,gas,N/A,gas,Buildings
+comm other,refined liquids,N/A,refined liquids,Buildings
+comm others,biomass,N/A,biomass,Buildings
+comm others,coal,N/A,coal,Buildings
+comm others,gas,N/A,gas,Buildings
+comm others,refined liquids,N/A,refined liquids,Buildings
+csp_backup,gas,N/A,CSP gas hybrid mode,Buildings
+desalinated water,gas,,distillation,Industry
+desalinated water,refined liquids,,distillation,Industry
+district heat,biomass,,biomass,Buildings
+district heat,coal,,coal,Buildings
+district heat,gas,,gas,Buildings
+district heat,refined liquids,,refined liquids,Buildings
+elec_biomass (IGCC CCS),biomass (IGCC CCS),,biomass (IGCC CCS) (dry cooling),BECCS electricity
+elec_biomass (IGCC CCS),biomass (IGCC CCS),,biomass (IGCC CCS) (once through),BECCS electricity
+elec_biomass (IGCC CCS),biomass (IGCC CCS),,biomass (IGCC CCS) (recirculating),BECCS electricity
+elec_biomass (IGCC CCS),biomass (IGCC CCS),,biomass (IGCC CCS) (seawater),BECCS electricity
+elec_biomass (IGCC),biomass (IGCC),,biomass (IGCC) (dry cooling),Bioelectricity
+elec_biomass (IGCC),biomass (IGCC),,biomass (IGCC) (once through),Bioelectricity
+elec_biomass (IGCC),biomass (IGCC),,biomass (IGCC) (recirculating),Bioelectricity
+elec_biomass (IGCC),biomass (IGCC),,biomass (IGCC) (seawater),Bioelectricity
+elec_biomass (conv CCS),biomass (conv CCS),,biomass (conv CCS) (dry cooling),BECCS electricity
+elec_biomass (conv CCS),biomass (conv CCS),,biomass (conv CCS) (once through),BECCS electricity
+elec_biomass (conv CCS),biomass (conv CCS),,biomass (conv CCS) (recirculating),BECCS electricity
+elec_biomass (conv CCS),biomass (conv CCS),,biomass (conv CCS) (seawater),BECCS electricity
+elec_biomass (conv),biomass (conv),,biomass (conv) (cooling pond),Bioelectricity
+elec_biomass (conv),biomass (conv),,biomass (conv) (dry cooling),Bioelectricity
+elec_biomass (conv),biomass (conv),,biomass (conv) (once through),Bioelectricity
+elec_biomass (conv),biomass (conv),,biomass (conv) (recirculating),Bioelectricity
+elec_biomass (conv),biomass (conv),,biomass (conv) (seawater),Bioelectricity
+elec_coal (IGCC CCS),coal (IGCC CCS),,coal (IGCC CCS) (dry cooling),Electricity
+elec_coal (IGCC CCS),coal (IGCC CCS),,coal (IGCC CCS) (once through),Electricity
+elec_coal (IGCC CCS),coal (IGCC CCS),,coal (IGCC CCS) (recirculating),Electricity
+elec_coal (IGCC CCS),coal (IGCC CCS),,coal (IGCC CCS) (seawater),Electricity
+elec_coal (IGCC),coal (IGCC),,coal (IGCC) (dry cooling),Electricity
+elec_coal (IGCC),coal (IGCC),,coal (IGCC) (once through),Electricity
+elec_coal (IGCC),coal (IGCC),,coal (IGCC) (recirculating),Electricity
+elec_coal (IGCC),coal (IGCC),,coal (IGCC) (seawater),Electricity
+elec_coal (conv pul CCS),coal (conv pul CCS),,coal (conv pul CCS) (dry cooling),Electricity
+elec_coal (conv pul CCS),coal (conv pul CCS),,coal (conv pul CCS) (once through),Electricity
+elec_coal (conv pul CCS),coal (conv pul CCS),,coal (conv pul CCS) (recirculating),Electricity
+elec_coal (conv pul CCS),coal (conv pul CCS),,coal (conv pul CCS) (seawater),Electricity
+elec_coal (conv pul),coal (conv pul),,coal (conv pul) (cooling pond),Electricity
+elec_coal (conv pul),coal (conv pul),,coal (conv pul) (dry cooling),Electricity
+elec_coal (conv pul),coal (conv pul),,coal (conv pul) (once through),Electricity
+elec_coal (conv pul),coal (conv pul),,coal (conv pul) (recirculating),Electricity
+elec_coal (conv pul),coal (conv pul),,coal (conv pul) (seawater),Electricity
+elec_gas (CC CCS),gas (CC CCS),,gas (CC CCS) (dry cooling),Electricity
+elec_gas (CC CCS),gas (CC CCS),,gas (CC CCS) (once through),Electricity
+elec_gas (CC CCS),gas (CC CCS),,gas (CC CCS) (recirculating),Electricity
+elec_gas (CC CCS),gas (CC CCS),,gas (CC CCS) (seawater),Electricity
+elec_gas (CC),gas (CC),,gas (CC) (cooling pond),Electricity
+elec_gas (CC),gas (CC),,gas (CC) (dry cooling),Electricity
+elec_gas (CC),gas (CC),,gas (CC) (once through),Electricity
+elec_gas (CC),gas (CC),,gas (CC) (recirculating),Electricity
+elec_gas (CC),gas (CC),,gas (CC) (seawater),Electricity
+elec_gas (steam/CT),gas (steam/CT),,gas (steam/CT) (cooling pond),Electricity
+elec_gas (steam/CT),gas (steam/CT),,gas (steam/CT) (dry cooling),Electricity
+elec_gas (steam/CT),gas (steam/CT),,gas (steam/CT) (once through),Electricity
+elec_gas (steam/CT),gas (steam/CT),,gas (steam/CT) (recirculating),Electricity
+elec_gas (steam/CT),gas (steam/CT),,gas (steam/CT) (seawater),Electricity
+elec_refined liquids (CC CCS),refined liquids (CC CCS),,refined liquids (CC CCS) (dry cooling),Electricity
+elec_refined liquids (CC CCS),refined liquids (CC CCS),,refined liquids (CC CCS) (once through),Electricity
+elec_refined liquids (CC CCS),refined liquids (CC CCS),,refined liquids (CC CCS) (recirculating),Electricity
+elec_refined liquids (CC CCS),refined liquids (CC CCS),,refined liquids (CC CCS) (seawater),Electricity
+elec_refined liquids (CC),refined liquids (CC),,refined liquids (CC) (dry cooling),Electricity
+elec_refined liquids (CC),refined liquids (CC),,refined liquids (CC) (once through),Electricity
+elec_refined liquids (CC),refined liquids (CC),,refined liquids (CC) (recirculating),Electricity
+elec_refined liquids (CC),refined liquids (CC),,refined liquids (CC) (seawater),Electricity
+elec_refined liquids (steam/CT),refined liquids (steam/CT),,refined liquids (steam/CT) (cooling pond),Electricity
+elec_refined liquids (steam/CT),refined liquids (steam/CT),,refined liquids (steam/CT) (dry cooling),Electricity
+elec_refined liquids (steam/CT),refined liquids (steam/CT),,refined liquids (steam/CT) (once through),Electricity
+elec_refined liquids (steam/CT),refined liquids (steam/CT),,refined liquids (steam/CT) (recirculating),Electricity
+elec_refined liquids (steam/CT),refined liquids (steam/CT),,refined liquids (steam/CT) (seawater),Electricity
+gas pipeline,gas pipeline,N/A,gas pipeline,Other transformation
+gas processing,biomass gasification,N/A,biomass gasification,Other transformation
+gas processing,coal gasification,N/A,coal gasification,Other transformation
+gas to liquids,gas to liquids,N/A,gas to liquids,Refining
+industrial energy use,biomass,N/A,biomass,Industry
+industrial energy use,biomass,N/A,biomass cogen,Industry
+industrial energy use,coal,N/A,coal,Industry
+industrial energy use,coal,N/A,coal cogen,Industry
+industrial energy use,gas,N/A,gas,Industry
+industrial energy use,gas,N/A,gas cogen,Industry
+industrial energy use,refined liquids,N/A,refined liquids,Industry
+industrial energy use,refined liquids,N/A,refined liquids cogen,Industry
+industrial feedstocks,coal,N/A,coal,Industry
+industrial feedstocks,gas,N/A,gas,Industry
+industrial feedstocks,refined liquids,N/A,refined liquids,Industry
+intermediate generation,biomass,"biomass_int_IGCC,depth=1",biomass (IGCC) (dry cooling),Bioelectricity
+intermediate generation,biomass,"biomass_int_IGCC,depth=1",biomass (IGCC) (recirculating),Bioelectricity
+intermediate generation,biomass,"biomass_int_IGCC,depth=1",biomass (IGCC) (seawater),Bioelectricity
+intermediate generation,biomass,"biomass_int_IGCC_CCS,depth=1",biomass (IGCC CCS) (dry cooling),BECCS electricity
+intermediate generation,biomass,"biomass_int_IGCC_CCS,depth=1",biomass (IGCC CCS) (recirculating),BECCS electricity
+intermediate generation,biomass,"biomass_int_IGCC_CCS,depth=1",biomass (IGCC CCS) (seawater),BECCS electricity
+intermediate generation,biomass,"biomass_int_conv,depth=1",biomass (conv) (cooling pond),Bioelectricity
+intermediate generation,biomass,"biomass_int_conv,depth=1",biomass (conv) (dry cooling),Bioelectricity
+intermediate generation,biomass,"biomass_int_conv,depth=1",biomass (conv) (once through),Bioelectricity
+intermediate generation,biomass,"biomass_int_conv,depth=1",biomass (conv) (recirculating),Bioelectricity
+intermediate generation,biomass,"biomass_int_conv,depth=1",biomass (conv) (seawater),Bioelectricity
+intermediate generation,biomass,"biomass_int_conv_CCS,depth=1",biomass (conv CCS) (dry cooling),BECCS electricity
+intermediate generation,biomass,"biomass_int_conv_CCS,depth=1",biomass (conv CCS) (recirculating),BECCS electricity
+intermediate generation,biomass,"biomass_int_conv_CCS,depth=1",biomass (conv CCS) (seawater),BECCS electricity
+intermediate generation,coal,"coal_int_IGCC_CCS,depth=1",coal (IGCC CCS) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_IGCC_CCS,depth=1",coal (IGCC CCS) (recirculating),Electricity
+intermediate generation,coal,"coal_int_IGCC_CCS,depth=1",coal (IGCC CCS) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul before 1950,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul before 1950,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul before 1950,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul before 1950,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul before 1950,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 1951-1955,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1951-1955,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1951-1955,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1951-1955,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1956-1960,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1956-1960,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1956-1960,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1956-1960,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1956-1960,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 1961-1965,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1961-1965,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1961-1965,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1961-1965,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1961-1965,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 1966-1970,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1966-1970,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1966-1970,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1966-1970,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1966-1970,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 1971-1975,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1971-1975,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1971-1975,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1971-1975,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1971-1975,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 1976-1980,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1976-1980,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1976-1980,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1976-1980,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1976-1980,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 1981-1985,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1981-1985,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1981-1985,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1981-1985,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1981-1985,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 1986-1990,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1986-1990,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1986-1990,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1986-1990,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1986-1990,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 1991-1995,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1991-1995,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1991-1995,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1991-1995,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1991-1995,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 1996-2000,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 1996-2000,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 1996-2000,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 1996-2000,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 1996-2000,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 2001-2005,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 2001-2005,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 2001-2005,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 2001-2005,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 2001-2005,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 2006-2010,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 2006-2010,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 2006-2010,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 2006-2010,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 2006-2010,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul 2011-2015,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul 2011-2015,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul 2011-2015,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul 2011-2015,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul 2011-2015,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul_retire_2020,depth=1",coal (conv pul) (cooling pond),Electricity
+intermediate generation,coal,"coal_int_conv pul_retire_2020,depth=1",coal (conv pul) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul_retire_2020,depth=1",coal (conv pul) (once through),Electricity
+intermediate generation,coal,"coal_int_conv pul_retire_2020,depth=1",coal (conv pul) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul_retire_2020,depth=1",coal (conv pul) (seawater),Electricity
+intermediate generation,coal,"coal_int_conv pul_CCS,depth=1",coal (conv pul CCS) (dry cooling),Electricity
+intermediate generation,coal,"coal_int_conv pul_CCS,depth=1",coal (conv pul CCS) (recirculating),Electricity
+intermediate generation,coal,"coal_int_conv pul_CCS,depth=1",coal (conv pul CCS) (seawater),Electricity
+intermediate generation,gas,"gas_int_CC,depth=1",gas (CC) (cooling pond),Electricity
+intermediate generation,gas,"gas_int_CC,depth=1",gas (CC) (dry cooling),Electricity
+intermediate generation,gas,"gas_int_CC,depth=1",gas (CC) (once through),Electricity
+intermediate generation,gas,"gas_int_CC,depth=1",gas (CC) (recirculating),Electricity
+intermediate generation,gas,"gas_int_CC,depth=1",gas (CC) (seawater),Electricity
+intermediate generation,gas,"gas_int_CC_CCS,depth=1",gas (CC CCS) (dry cooling),Electricity
+intermediate generation,gas,"gas_int_CC_CCS,depth=1",gas (CC CCS) (recirculating),Electricity
+intermediate generation,gas,"gas_int_CC_CCS,depth=1",gas (CC CCS) (seawater),Electricity
+intermediate generation,refined liquids,"refined liquids_int_CC,depth=1",refined liquids (CC) (dry cooling),Electricity
+intermediate generation,refined liquids,"refined liquids_int_CC,depth=1",refined liquids (CC) (recirculating),Electricity
+intermediate generation,refined liquids,"refined liquids_int_CC,depth=1",refined liquids (CC) (seawater),Electricity
+intermediate generation,refined liquids,"refined liquids_int_CC_CCS,depth=1",refined liquids (CC CCS) (dry cooling),Electricity
+intermediate generation,refined liquids,"refined liquids_int_CC_CCS,depth=1",refined liquids (CC CCS) (recirculating),Electricity
+intermediate generation,refined liquids,"refined liquids_int_CC_CCS,depth=1",refined liquids (CC CCS) (seawater),Electricity
+intermediate generation,refined liquids,"refined liquids_int_steam/CT,depth=1",refined liquids (steam/CT) (cooling pond),Electricity
+intermediate generation,refined liquids,"refined liquids_int_steam/CT,depth=1",refined liquids (steam/CT) (dry cooling),Electricity
+intermediate generation,refined liquids,"refined liquids_int_steam/CT,depth=1",refined liquids (steam/CT) (once through),Electricity
+intermediate generation,refined liquids,"refined liquids_int_steam/CT,depth=1",refined liquids (steam/CT) (recirculating),Electricity
+intermediate generation,refined liquids,"refined liquids_int_steam/CT,depth=1",refined liquids (steam/CT) (seawater),Electricity
+oil refining,oil refining,N/A,oil refining,Refining
+peak generation,coal,"coal_peak_conv pul,depth=1",coal (conv pul) (cooling pond),Electricity
+peak generation,coal,"coal_peak_conv pul,depth=1",coal (conv pul) (dry cooling),Electricity
+peak generation,coal,"coal_peak_conv pul,depth=1",coal (conv pul) (once through),Electricity
+peak generation,coal,"coal_peak_conv pul,depth=1",coal (conv pul) (recirculating),Electricity
+peak generation,coal,"coal_peak_conv pul,depth=1",coal (conv pul) (seawater),Electricity
+peak generation,coal,"coal_peak_conv pul_retire_2020,depth=1",coal (conv pul) (cooling pond),Electricity
+peak generation,coal,"coal_peak_conv pul_retire_2020,depth=1",coal (conv pul) (dry cooling),Electricity
+peak generation,coal,"coal_peak_conv pul_retire_2020,depth=1",coal (conv pul) (once through),Electricity
+peak generation,coal,"coal_peak_conv pul_retire_2020,depth=1",coal (conv pul) (recirculating),Electricity
+peak generation,coal,"coal_peak_conv pul_retire_2020,depth=1",coal (conv pul) (seawater),Electricity
+peak generation,gas,"gas_peak_CC,depth=1",gas (CC) (cooling pond),Electricity
+peak generation,gas,"gas_peak_CC,depth=1",gas (CC) (dry cooling),Electricity
+peak generation,gas,"gas_peak_CC,depth=1",gas (CC) (once through),Electricity
+peak generation,gas,"gas_peak_CC,depth=1",gas (CC) (recirculating),Electricity
+peak generation,gas,"gas_peak_CC,depth=1",gas (CC) (seawater),Electricity
+peak generation,gas,"gas_peak_CC_CCS,depth=1",gas (CC CCS) (dry cooling),Electricity
+peak generation,gas,"gas_peak_CC_CCS,depth=1",gas (CC CCS) (recirculating),Electricity
+peak generation,gas,"gas_peak_CC_CCS,depth=1",gas (CC CCS) (seawater),Electricity
+peak generation,gas,"gas_peak_steam/CT,depth=1",gas (steam/CT) (cooling pond),Electricity
+peak generation,gas,"gas_peak_steam/CT,depth=1",gas (steam/CT) (dry cooling),Electricity
+peak generation,gas,"gas_peak_steam/CT,depth=1",gas (steam/CT) (once through),Electricity
+peak generation,gas,"gas_peak_steam/CT,depth=1",gas (steam/CT) (recirculating),Electricity
+peak generation,gas,"gas_peak_steam/CT,depth=1",gas (steam/CT) (seawater),Electricity
+peak generation,refined liquids,"refined liquids_peak_CC,depth=1",refined liquids (CC) (dry cooling),Electricity
+peak generation,refined liquids,"refined liquids_peak_CC,depth=1",refined liquids (CC) (recirculating),Electricity
+peak generation,refined liquids,"refined liquids_peak_CC,depth=1",refined liquids (CC) (seawater),Electricity
+peak generation,refined liquids,"refined liquids_peak_CC_CCS,depth=1",refined liquids (CC CCS) (dry cooling),Electricity
+peak generation,refined liquids,"refined liquids_peak_CC_CCS,depth=1",refined liquids (CC CCS) (recirculating),Electricity
+peak generation,refined liquids,"refined liquids_peak_CC_CCS,depth=1",refined liquids (CC CCS) (seawater),Electricity
+peak generation,refined liquids,"refined liquids_peak_steam/CT,depth=1",refined liquids (steam/CT) (cooling pond),Electricity
+peak generation,refined liquids,"refined liquids_peak_steam/CT,depth=1",refined liquids (steam/CT) (dry cooling),Electricity
+peak generation,refined liquids,"refined liquids_peak_steam/CT,depth=1",refined liquids (steam/CT) (once through),Electricity
+peak generation,refined liquids,"refined liquids_peak_steam/CT,depth=1",refined liquids (steam/CT) (recirculating),Electricity
+peak generation,refined liquids,"refined liquids_peak_steam/CT,depth=1",refined liquids (steam/CT) (seawater),Electricity
+process heat cement,biomass,N/A,biomass,Industry
+process heat cement,coal,N/A,coal,Industry
+process heat cement,gas,N/A,gas,Industry
+process heat cement,refined liquids,N/A,refined liquids,Industry
+process heat dac,gas CCS,N/A,gas CCS,DACCS
+refining,biomass liquids,,FT biofuels,Bioliquids
+refining,biomass liquids,,FT biofuels CCS level 1,BECCS liquids
+refining,biomass liquids,,FT biofuels CCS level 2,BECCS liquids
+refining,biomass liquids,,biodiesel,Bioliquids
+refining,biomass liquids,,cellulosic ethanol,Bioliquids
+refining,biomass liquids,,cellulosic ethanol CCS level 1,BECCS liquids
+refining,biomass liquids,,cellulosic ethanol CCS level 2,BECCS liquids
+refining,biomass liquids,,corn ethanol,Bioliquids
+refining,coal to liquids,,coal to liquids,Refining
+refining,coal to liquids,,coal to liquids CCS level 1,Refining
+refining,coal to liquids,,coal to liquids CCS level 2,Refining
+refining,gas to liquids,,gas to liquids,Refining
+refining,oil refining,,oil refining,Refining
+regional biomass,regional biomass,N/A,regional biomass,Regional biomass
+regional biomassOil,regional biomassOil,N/A,OilCrop,Regional biomass
+regional biomassOil,regional biomassOil,N/A,PalmFruit,Regional biomass
+regional corn for ethanol,regional corn for ethanol,N/A,regional corn for ethanol,Regional biomass
+regional sugar for ethanol,regional sugar for ethanol,N/A,regional sugar for ethanol,Regional biomass
+resid clothes dryers,gas,N/A,clothes dryer,Buildings
+resid cooking,gas,N/A,gas oven,Buildings
+resid cooking,gas,N/A,gas oven hi-eff,Buildings
+resid cooking,refined liquids,N/A,lpg oven,Buildings
+resid cooking,refined liquids,N/A,lpg oven hi-eff,Buildings
+resid cooling,gas,N/A,gas,Buildings
+resid heating,biomass,N/A,biomass,Buildings
+resid heating,biomass,N/A,wood furnace,Buildings
+resid heating,coal,N/A,coal,Buildings
+resid heating,coal,N/A,coal furnace,Buildings
+resid heating,gas,N/A,gas,Buildings
+resid heating,gas,N/A,gas furnace,Buildings
+resid heating,gas,N/A,gas furnace hi-eff,Buildings
+resid heating,refined liquids,N/A,fuel furnace,Buildings
+resid heating,refined liquids,N/A,fuel furnace hi-eff,Buildings
+resid heating,refined liquids,N/A,refined liquids,Buildings
+resid hot water,gas,N/A,gas water heater,Buildings
+resid hot water,gas,N/A,gas water heater hi-eff,Buildings
+resid hot water,refined liquids,N/A,fuel water heater,Buildings
+resid hot water,refined liquids,N/A,fuel water heater hi-eff,Buildings
+resid other,gas,N/A,gas,Buildings
+resid other,refined liquids,N/A,refined liquids,Buildings
+resid others,biomass,N/A,biomass,Buildings
+resid others,coal,N/A,coal,Buildings
+resid others,gas,N/A,gas,Buildings
+resid others,refined liquids,N/A,refined liquids,Buildings
+subpeak generation,coal,"coal_subpeak_conv pul,depth=1",coal (conv pul) (cooling pond),Electricity
+subpeak generation,coal,"coal_subpeak_conv pul,depth=1",coal (conv pul) (dry cooling),Electricity
+subpeak generation,coal,"coal_subpeak_conv pul,depth=1",coal (conv pul) (once through),Electricity
+subpeak generation,coal,"coal_subpeak_conv pul,depth=1",coal (conv pul) (recirculating),Electricity
+subpeak generation,coal,"coal_subpeak_conv pul,depth=1",coal (conv pul) (seawater),Electricity
+subpeak generation,coal,"coal_subpeak_conv pul_retire_2020,depth=1",coal (conv pul) (cooling pond),Electricity
+subpeak generation,coal,"coal_subpeak_conv pul_retire_2020,depth=1",coal (conv pul) (dry cooling),Electricity
+subpeak generation,coal,"coal_subpeak_conv pul_retire_2020,depth=1",coal (conv pul) (once through),Electricity
+subpeak generation,coal,"coal_subpeak_conv pul_retire_2020,depth=1",coal (conv pul) (recirculating),Electricity
+subpeak generation,coal,"coal_subpeak_conv pul_retire_2020,depth=1",coal (conv pul) (seawater),Electricity
+subpeak generation,gas,"gas_subpeak_CC,depth=1",gas (CC) (cooling pond),Electricity
+subpeak generation,gas,"gas_subpeak_CC,depth=1",gas (CC) (dry cooling),Electricity
+subpeak generation,gas,"gas_subpeak_CC,depth=1",gas (CC) (once through),Electricity
+subpeak generation,gas,"gas_subpeak_CC,depth=1",gas (CC) (recirculating),Electricity
+subpeak generation,gas,"gas_subpeak_CC,depth=1",gas (CC) (seawater),Electricity
+subpeak generation,gas,"gas_subpeak_CC_CCS,depth=1",gas (CC CCS) (dry cooling),Electricity
+subpeak generation,gas,"gas_subpeak_CC_CCS,depth=1",gas (CC CCS) (recirculating),Electricity
+subpeak generation,gas,"gas_subpeak_CC_CCS,depth=1",gas (CC CCS) (seawater),Electricity
+subpeak generation,gas,"gas_subpeak_steam/CT,depth=1",gas (steam/CT) (cooling pond),Electricity
+subpeak generation,gas,"gas_subpeak_steam/CT,depth=1",gas (steam/CT) (dry cooling),Electricity
+subpeak generation,gas,"gas_subpeak_steam/CT,depth=1",gas (steam/CT) (once through),Electricity
+subpeak generation,gas,"gas_subpeak_steam/CT,depth=1",gas (steam/CT) (recirculating),Electricity
+subpeak generation,gas,"gas_subpeak_steam/CT,depth=1",gas (steam/CT) (seawater),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_CC,depth=1",refined liquids (CC) (dry cooling),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_CC,depth=1",refined liquids (CC) (recirculating),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_CC,depth=1",refined liquids (CC) (seawater),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_CC_CCS,depth=1",refined liquids (CC CCS) (dry cooling),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_CC_CCS,depth=1",refined liquids (CC CCS) (recirculating),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_CC_CCS,depth=1",refined liquids (CC CCS) (seawater),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_steam/CT,depth=1",refined liquids (steam/CT) (cooling pond),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_steam/CT,depth=1",refined liquids (steam/CT) (dry cooling),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_steam/CT,depth=1",refined liquids (steam/CT) (once through),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_steam/CT,depth=1",refined liquids (steam/CT) (recirculating),Electricity
+subpeak generation,refined liquids,"refined liquids_subpeak_steam/CT,depth=1",refined liquids (steam/CT) (seawater),Electricity
+trn_aviation_intl,International Aviation,N/A,Liquids,Transportation
+trn_freight,Domestic Ship,N/A,Liquids,Transportation
+trn_freight,Freight Rail,N/A,Coal,Transportation
+trn_freight,Freight Rail,N/A,Liquids,Transportation
+trn_freight_road,Heavy truck,N/A,Liquids,Transportation
+trn_freight_road,Heavy truck,N/A,NG,Transportation
+trn_freight_road,Light truck,N/A,Liquids,Transportation
+trn_freight_road,Light truck,N/A,NG,Transportation
+trn_freight_road,Medium truck,N/A,Liquids,Transportation
+trn_freight_road,Medium truck,N/A,NG,Transportation
+trn_pass,Domestic Aviation,N/A,Liquids,Transportation
+trn_pass,Passenger Rail,N/A,Liquids,Transportation
+trn_pass_road,Bus,N/A,Liquids,Transportation
+trn_pass_road,Bus,N/A,NG,Transportation
+trn_pass_road_LDV,2W and 3W,N/A,Liquids,Transportation
+trn_pass_road_LDV,2W and 3W,N/A,NG,Transportation
+trn_pass_road_LDV_4W,Car,N/A,Hybrid Liquids,Transportation
+trn_pass_road_LDV_4W,Car,N/A,Liquids,Transportation
+trn_pass_road_LDV_4W,Car,N/A,NG,Transportation
+trn_pass_road_LDV_4W,Large Car and Truck,N/A,Hybrid Liquids,Transportation
+trn_pass_road_LDV_4W,Large Car and Truck,N/A,Liquids,Transportation
+trn_pass_road_LDV_4W,Large Car and Truck,N/A,NG,Transportation
+trn_pass_road_LDV_4W,Mini Car,N/A,Hybrid Liquids,Transportation
+trn_pass_road_LDV_4W,Mini Car,N/A,Liquids,Transportation
+trn_pass_road_LDV_4W,Mini Car,N/A,NG,Transportation
+trn_shipping_intl,International Ship,N/A,Liquids,Transportation
